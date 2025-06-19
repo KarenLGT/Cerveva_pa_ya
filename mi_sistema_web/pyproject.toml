@@ -1,0 +1,18 @@
+[project]
+name = "mi-sistema-web"
+version = "0.1.0"
+description = "sistema de inventarios"
+authors = [
+    {name = "karenlorenagarzont@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask (>=3.1.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
