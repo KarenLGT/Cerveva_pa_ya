@@ -1,17 +1,15 @@
-[project]
+[tool.poetry]
 name = "mi-sistema-web"
 version = "0.1.0"
-description = "sistema de inventarios"
-authors = [
-    {name = "karenlorenagarzont@gmail.com"}
-]
-license = {text = "MIT"}
+description = "Sistema de inventarios"
+authors = ["karenlorenagarzont@gmail.com"]
+license = "MIT"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "flask (>=3.1.1,<4.0.0)"
-]
+requires-python = ">=3.10,<3.12"
 
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+flask = "^3.1.1"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
